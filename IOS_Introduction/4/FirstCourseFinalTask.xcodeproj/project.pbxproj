@@ -10,10 +10,10 @@
 		741469B21F9E37F600A1B130 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741469B11F9E37F600A1B130 /* main.swift */; };
 		FA65E76925A5E9FD0064C533 /* PostsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E76725A5E9FD0064C533 /* PostsStorage.swift */; };
 		FA65E76A25A5E9FD0064C533 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E76825A5E9FD0064C533 /* Post.swift */; };
-		FA65E77525A5EAC00064C533 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E77325A5EAC00064C533 /* User.swift */; };
-		FA65E77625A5EAC00064C533 /* UsersStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E77425A5EAC00064C533 /* UsersStorage.swift */; };
 		FA65E77825A5EB580064C533 /* FirstCourseFinalTaskChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741469BB1F9E384E00A1B130 /* FirstCourseFinalTaskChecker.framework */; };
 		FA65E77925A5EB580064C533 /* FirstCourseFinalTaskChecker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 741469BB1F9E384E00A1B130 /* FirstCourseFinalTaskChecker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAA384E625DEF424008AF16C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA384E425DEF424008AF16C /* User.swift */; };
+		FAA384E725DEF424008AF16C /* UsersStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA384E525DEF424008AF16C /* UsersStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,8 +45,8 @@
 		741469BB1F9E384E00A1B130 /* FirstCourseFinalTaskChecker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirstCourseFinalTaskChecker.framework; path = FirstCourseFinalTask/FirstCourseFinalTaskChecker.framework; sourceTree = "<group>"; };
 		FA65E76725A5E9FD0064C533 /* PostsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsStorage.swift; sourceTree = "<group>"; };
 		FA65E76825A5E9FD0064C533 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		FA65E77325A5EAC00064C533 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../course/FirstCourseFinalTask/FirstCourseFinalTask/User/User.swift; sourceTree = "<group>"; };
-		FA65E77425A5EAC00064C533 /* UsersStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersStorage.swift; path = ../../../../course/FirstCourseFinalTask/FirstCourseFinalTask/User/UsersStorage.swift; sourceTree = "<group>"; };
+		FAA384E425DEF424008AF16C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAA384E525DEF424008AF16C /* UsersStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 		FA65E77225A5EA870064C533 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				FA65E77325A5EAC00064C533 /* User.swift */,
-				FA65E77425A5EAC00064C533 /* UsersStorage.swift */,
+				FAA384E425DEF424008AF16C /* User.swift */,
+				FAA384E525DEF424008AF16C /* UsersStorage.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -174,8 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA65E77525A5EAC00064C533 /* User.swift in Sources */,
-				FA65E77625A5EAC00064C533 /* UsersStorage.swift in Sources */,
+				FAA384E625DEF424008AF16C /* User.swift in Sources */,
+				FAA384E725DEF424008AF16C /* UsersStorage.swift in Sources */,
 				FA65E76A25A5E9FD0064C533 /* Post.swift in Sources */,
 				741469B21F9E37F600A1B130 /* main.swift in Sources */,
 				FA65E76925A5E9FD0064C533 /* PostsStorage.swift in Sources */,

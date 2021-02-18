@@ -1,11 +1,3 @@
-//
-//  PostsStorage.swift
-//  FirstCourseFinalTask
-//
-//  Created by Ilya Sysoi on 10/25/18.
-//  Copyright © 2018 E-Legion. All rights reserved.
-//
-
 import Foundation
 import FirstCourseFinalTaskChecker
 
